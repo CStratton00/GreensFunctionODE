@@ -35,10 +35,21 @@ def green2(x):                              # returns the function of y(x) = 4 -
     return 4 - (4 * np.cos(x))
 
 # Time Analysis Variables
-ts0, te0, t0 = 0        # time start, end, and summation for the 1st analysis
-ts1, te1, t1 = 0        # time start, end, and summation for the 2nd analysis
-ts2, te2, t2 = 0        # time start, end, and summation for the 3rd analysis
-ts3, te3, t3 = 0        # time start, end, and summation for the 4th analysis
+ts0 = 0         # time start, end, and summation for the 1st analysis
+te0 = 0
+t0 = 0
+
+ts1 = 0         # time start, end, and summation for the 2nd analysis
+te1 = 0
+t1 = 0
+
+ts2 = 0         # time start, end, and summation for the 3rd analysis
+te2 = 0
+t2 = 0
+
+ts3 = 0         # time start, end, and summation for the 4th analysis
+te3 = 0
+t3 = 0
 
 # ODEint solution and
 ts0 = time.time()               # time analysis
